@@ -1,6 +1,6 @@
 # Babylon.js PhotoDome transition sample
 
-Uses two PhotoDome instances to make a cross-fade zooming transition effect between 360º images.
+Uses two [PhotoDome](https://doc.babylonjs.com/api/classes/babylon.photodome) instances to make a cross-fade zooming transition effect between 360º images.
 
 ## Playground
 

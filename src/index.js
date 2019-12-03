@@ -118,6 +118,9 @@ function addListeners ()
 
 console.log("BABYLONJS PHOTODOME TRANSITION SAMPLE");
 
+// initialize
 init();
+
+// load first image
 loadNextImage();
 

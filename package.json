@@ -4,7 +4,7 @@
   "description": "Babylonjs PhotoDome Transition Sample",
   "main": "index.html",
   "scripts": {
-    "start": "parcel serve index.html --out-dir local --port 5000 --open",
+    "start": "rm local/* && parcel serve index.html --out-dir local --port 5000 --open",
     "watch": "parcel watch index.html",
     "build": "npm run clean && parcel build index.html --public-url ./",
     "clean": "rm -rf dist"
