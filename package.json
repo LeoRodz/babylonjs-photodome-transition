@@ -1,0 +1,20 @@
+{
+  "name": "babylonjs-photodome-transition",
+  "version": "1.0.0",
+  "description": "Babylonjs PhotoDome Transition",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel serve index.html --port 5000 --open",
+    "watch": "parcel watch index.html",
+    "build": "npm run clean && parcel build index.html --public-url ./",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@babylonjs/core": "4.1.0-beta.4"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "@babylonjs/inspector": "4.1.0-beta.4"
+  },
+  "keywords": []
+}

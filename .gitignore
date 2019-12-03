@@ -1,0 +1,18 @@
+# Node modules
+node_modules/
+
+# media
+media/
+
+# parcel
+.cache/
+
+# Backups
+*.7z
+*.zip
+
+# Logs
+*.log
+
+
+
