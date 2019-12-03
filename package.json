@@ -1,10 +1,10 @@
 {
   "name": "babylonjs-photodome-transition",
   "version": "1.0.0",
-  "description": "Babylonjs PhotoDome Transition",
+  "description": "Babylonjs PhotoDome Transition Sample",
   "main": "index.html",
   "scripts": {
-    "start": "parcel serve index.html --port 5000 --open",
+    "start": "parcel serve index.html --out-dir local --port 5000 --open",
     "watch": "parcel watch index.html",
     "build": "npm run clean && parcel build index.html --public-url ./",
     "clean": "rm -rf dist"
@@ -16,5 +16,11 @@
     "cssnano": "^4.1.10",
     "@babylonjs/inspector": "4.1.0-beta.4"
   },
-  "keywords": []
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeoRodz/babylonjs-photodome-transition.git"
+  },
+  "author": "LeoRodz",
+  "license": "Apache-2.0",
+  "keywords": ["babylonjs", "PhotoDome"]
 }

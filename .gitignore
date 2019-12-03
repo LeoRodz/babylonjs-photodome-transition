@@ -6,6 +6,8 @@ media/
 
 # parcel
 .cache/
+local/
+dist/
 
 # Backups
 *.7z
@@ -13,6 +15,3 @@ media/
 
 # Logs
 *.log
-
-
-

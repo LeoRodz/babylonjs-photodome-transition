@@ -3,10 +3,12 @@ import { Scene } from "@babylonjs/core/scene";
 import { Vector3 } from "@babylonjs/core/Maths/math";
 import { FreeCamera } from "@babylonjs/core/Cameras/freeCamera";
 import { HemisphericLight } from "@babylonjs/core/Lights/hemisphericLight";
-import { StandardMaterial } from "@babylonjs/core/Materials/standardMaterial"
 import { ActionManager } from "@babylonjs/core/Actions/actionManager";
 import { ExecuteCodeAction } from "@babylonjs/core/Actions/directActions";
 import { PhotoDome } from "@babylonjs/core/Helpers/photoDome";
+
+// Side-effects only imports allowing the standard material to be used as default.
+import "@babylonjs/core/Materials/standardMaterial";
 
 
 // Watch this in the Playground:  https://playground.babylonjs.com/#Y5JYYR#1
